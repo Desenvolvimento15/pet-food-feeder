@@ -56,15 +56,13 @@ align-items: center;
 text-align: left;
 }
 
-
-
-
-
-
-
-
-
-
+.grid-icon{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+}
 
 /*=================================================== L A Y O U T =====================================================*/
 
