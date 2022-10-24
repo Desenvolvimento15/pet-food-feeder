@@ -33,7 +33,7 @@
 
 @media screen and (max-width:768px){
 
-.title-xiaomi-food-01{font-size: 3.0rem; font-weight: bold; color: var(--title-black); text-align: left;}
+.title-xiaomi-food-01{font-size: 2rem; font-weight: bold; color: var(--title-black); text-align: center;}
 .title-xiaomi-food-02{font-size: 1.2rem; font-weight: bold; color: var(--title-black); text-align: center; padding-bottom: 1rem;}
 .title-xiaomi-food-03{font-size: 1.5rem; font-weight: bold; color: var(--title-black); text-align: center;}
 
@@ -41,6 +41,10 @@
 .p_xiaomi-c40-03{font-size: 1rem; color: var(--paragraph); text-align: center;}
 
 
+
+.svg-img{
+    fill: #000;
+}
 /*===================================================== G R I D ========================================================*/
 
 .grid-text{
