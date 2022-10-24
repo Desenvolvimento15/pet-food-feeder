@@ -1,8 +1,27 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+:root{
+--background-notas: #ecedf1;
+--background-yellon: #f9d230;
+--title-yellon: #f9d230;
+--title: #000;
+--text-white: #fff;
+--paragraph:#000;
 }
+    
+@font-face {font-family: CamphorProForXiaoMi-Regular; src: url(../css/fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Bold; font-weight: 700; src: url(../css/fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Thin; src: url(./fonts/CamphorProForXiaoMi-Thin.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Heavy; font-weight: 900; src: url(./fonts/CamphorProForXiaoMi-Heavy.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Medium; src: url(./fonts/CamphorProForXiaoMi-Medium.woff) format("woff")}
+
+.f-heavy {font-family: CamphorProForXiaoMi-Heavy, sans-serif; font-weight: 900}
+.f-regular {font-family: CamphorProForXiaoMi-Regular, sans-serif}
+.f-light {font-family: CamphorProForXiaoMi-Light, sans-serif}
+.f-bold {font-family: CamphorProForXiaoMi-Bold, sans-serif; font-weight: 700}
+.f-medium {font-family: CamphorProForXiaoMi-Medium, sans-serif}
+.f-thin {font-family: CamphorProForXiaoMi-Thin, sans-serif}
+
 
 @media screen and (min-width:1024px){
  
@@ -13,5 +32,82 @@
 }
 
 @media screen and (max-width:768px){
+
+
+
+.title-xiaomi-food-01{font-size: 3.0rem; font-weight: bold; color: var(--title); text-align: left;}
+.title-xiaomi-food-02{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center;}
+
+.p_xiaomi-c40-02{font-size: 1rem; color: var(--paragraph); text-align: center;}
+
+
+/*===================================================== G R I D ========================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================================================== L A Y O U T =====================================================*/
+
+.base-01{
+height: 36rem;
+background-image: url(../media/Overview_M1080_01.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column; 
+}
+
+.base-02{
+height: 43rem;
+background-image: url(../media/Overview_M1080_02.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+}
+
+.base-03{
+height: 33rem;
+background-image: url(../media/Overview_M1080_03.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+}
+
+.base-04{
+height: 33rem;
+background-image: url(../media/Overview_M1080_04.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+}
+.base-05{}
+.base-06{}
+.base-07{}
+.base-08{}
+.base-09{}
+.base-10{}
+.base-11{}
+.base-12{}
+.base-13{}
+.base-14{}
+.base-15{}
+.base-16{}
+.base-17{}
+.footer-xiaomi{}
 
 }
